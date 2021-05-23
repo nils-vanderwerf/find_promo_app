@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-puts "Hello World"
+require './lib/find_promo_app'
+
+FindPromoApp::CLI.new.call
